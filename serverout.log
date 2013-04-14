@@ -1,0 +1,23 @@
+Server listening on localhost:8080
+CONNECTED: 127.0.0.1:51169
+DATA 127.0.0.1: I am Chuck Norris!
+CLOSED: undefined undefined
+CONNECTED: 127.0.0.1:51170
+DATA 127.0.0.1: I am Chuck Norris!
+Server listening on localhost:8080
+CLOSED: undefined undefined
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:883:11)
+    at Server._listen2 (net.js:1021:14)
+    at listen (net.js:1043:10)
+    at net.js:1117:9
+    at asyncCallback (dns.js:68:16)
+    at Object.onanswer [as oncomplete] (dns.js:121:9)
+Server listening on localhost:8080
+CONNECTED: 127.0.0.1:51171
+DATA 127.0.0.1: I am Chuck Norris!
+CLOSED: undefined undefined
